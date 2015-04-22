@@ -1,0 +1,142 @@
+// Place all the styles related to the login controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+body{
+	background:#fff;
+}
+
+/* login style form and container*/
+.login-card {
+  padding: 40px;
+  width: 474px;
+  background-color: #f6f9fa;
+  margin: 220px auto 10px;
+  border-radius: 2px;
+  overflow: hidden;
+  border-radius: 13px;
+  border-top:1px solid #8ebde9; 
+  border-left:1px solid #8ebde9; 
+  border-right:1px solid #8ebde9; 
+  border-bottom:9px solid #8ebde9;
+}
+
+.login-card h1 {
+  font-size:14px !important; 
+  text-align: center;
+  font-size: 2.3em;
+}
+
+.login-card input[type=submit] {
+  width: 100%;
+  display: block;
+  margin-bottom: 10px;
+  position: relative;
+
+}
+
+.login-card input[type=text]{
+  height: 44px;
+  font-size: 16px;
+  width: 100%;
+  margin-bottom: 10px;
+  -webkit-appearance: none;
+  border:none; 
+  /* border-radius: 2px; */
+   padding: 0 40px;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  background:#fff url(username-icon.png) left no-repeat;
+  background-position: 7px 7px;
+  border:1px solid #8ebde9; 
+  color:#000; 
+
+}
+
+input[type=password] {
+  height: 44px;
+  font-size: 16px;
+  width: 100%;
+  margin-bottom: 10px;
+  -webkit-appearance: none;
+  border:none; 
+  /* border-radius: 2px; */
+  padding: 0 40px;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  background:#fff url(password-icon.png) left no-repeat;
+  background-position: 7px 7px;
+  border:1px solid #8ebde9; 
+  color:#000; 
+}
+
+.login-card input[type=text]:hover {
+  -moz-box-shadow: inset 0 1px 2px rgba(0,0,0,0.1);
+  -webkit-box-shadow: inset 0 1px 2px rgba(0,0,0,0.1);
+  box-shadow: inset 0 1px 2px rgba(0,0,0,0.1);
+  border:none; 
+  background-position: 7px 7px;
+  border:1px solid #8ebde9; 
+}
+
+input[type=password]:hover {
+  -moz-box-shadow: inset 0 1px 2px rgba(0,0,0,0.1);
+  -webkit-box-shadow: inset 0 1px 2px rgba(0,0,0,0.1);
+   box-shadow: inset 0 1px 2px rgba(0,0,0,0.1);
+   border:none; 
+   border:none; 
+   background-position: 7px 7px;
+   border:1px solid #8ebde9;  
+}
+
+
+.login {
+  text-align: center;
+  font-size: 14px;
+  font-family: 'Arial', sans-serif;
+  font-weight: 700;
+  height: 36px;
+  padding: 0 8px;
+/* border-radius: 3px; */
+/* -webkit-user-select: none;
+  user-select: none; */
+}
+
+.login-submit {
+  /* border: 1px solid #3079ed; */
+  border: 0px;
+  color: #557c18;
+  margin-top: 20px;
+  text-shadow: 0 1px rgba(0,0,0,0.1); 
+  background-color: #b5f05b;
+  /* background-image: -webkit-gradient(linear, 0 0, 0 100%,   from(#4d90fe), to(#4787ed)); */
+}
+
+.login-submit:hover {
+  /* border: 1px solid #2f5bb7; */
+  border: 0px;
+  text-shadow: 0 1px rgba(0,0,0,0.3);
+  background-color: #357ae8;
+  /* background-image: -webkit-gradient(linear, 0 0, 0 100%,   from(#4d90fe), to(#357ae8)); */
+}
+
+.login-card a {
+  text-decoration: none;
+  color: #666;
+  font-weight: 400;
+  text-align: center;
+  display: inline-block;
+  opacity: 0.6;
+  transition: opacity ease 0.5s;
+}
+
+.login-card a:hover {
+  opacity: 1;
+}
+
+.login-help {
+  width: 100%;
+  text-align: center;
+  font-size: 12px;
+}
+
