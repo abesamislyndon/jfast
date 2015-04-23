@@ -16,6 +16,7 @@ default: &default
   username: root
   password: root
   socket: /Applications/MAMP/tmp/mysql/mysql.sock
+  #socket: /var/run/mysqld/mysqld.sock
   host: localhost
 
 development:
