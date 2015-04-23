@@ -12,6 +12,7 @@ gem 'jbuilder', '~> 2.0'
 gem 'sdoc', '~> 0.4.0', group: :doc
 gem 'twitter-bootstrap-rails', '~> 3.2.0'
 gem 'devise', '~> 3.4.1'
+gem 'font-awesome-sass', '~> 4.3.0'
 
 group :development, :test do
   gem 'byebug'

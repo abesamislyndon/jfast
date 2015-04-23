@@ -12,10 +12,14 @@
 # It's strongly recommended that you check this file into your version control system.
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 ActiveRecord::Schema.define(version: 20150422153645) do
 =======
 ActiveRecord::Schema.define(version: 20150422094546) do
 >>>>>>> b5dd86c317e88f70788af26000cb57dea4fb9d6e
+=======
+ActiveRecord::Schema.define(version: 20150422153645) do
+>>>>>>> 0b4ab7a5050a816f8c4b3b6aff4152889a81a3ef
 
   create_table "users", force: :cascade do |t|
     t.string   "email",                  limit: 255, default: "", null: false
@@ -31,9 +35,13 @@ ActiveRecord::Schema.define(version: 20150422094546) do
     t.datetime "created_at"
     t.datetime "updated_at"
 <<<<<<< HEAD
+<<<<<<< HEAD
     t.boolean  "admin",                  limit: 1
 =======
 >>>>>>> b5dd86c317e88f70788af26000cb57dea4fb9d6e
+=======
+    t.boolean  "admin",                  limit: 1
+>>>>>>> 0b4ab7a5050a816f8c4b3b6aff4152889a81a3ef
   end
 
   add_index "users", ["email"], name: "index_users_on_email", unique: true, using: :btree

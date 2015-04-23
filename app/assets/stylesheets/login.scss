@@ -1,7 +1,3 @@
-// Place all the styles related to the login controller here.
-// They will automatically be included in application.css.
-// You can use Sass (SCSS) here: http://sass-lang.com/
-
 body{
 	background:#fff;
 }
@@ -19,6 +15,9 @@ body{
   border-left:1px solid #8ebde9; 
   border-right:1px solid #8ebde9; 
   border-bottom:9px solid #8ebde9;
+  -webkit-box-shadow: 2px 10px 12px 3px rgba(0,0,0,0.13);
+-moz-box-shadow: 2px 10px 12px 3px rgba(0,0,0,0.13);
+box-shadow: 2px 10px 12px 3px rgba(0,0,0,0.13);
 }
 
 .login-card h1 {
@@ -50,10 +49,25 @@ body{
   background-position: 7px 7px;
   border:1px solid #8ebde9; 
   color:#000; 
-
+}
+.login-card input[type=email]{
+  height: 44px;
+  font-size: 16px;
+  width: 100%;
+  margin-bottom: 10px;
+  -webkit-appearance: none;
+  border:none; 
+  /* border-radius: 2px; */
+   padding: 0 40px;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  background:#fff url(username-icon.png) left no-repeat;
+  background-position: 7px 7px;
+  border:1px solid #8ebde9; 
+  color:#000; 
 }
 
-input[type=password] {
+.login-card  input[type=password] {
   height: 44px;
   font-size: 16px;
   width: 100%;
@@ -97,18 +111,28 @@ input[type=password]:hover {
   font-weight: 700;
   height: 36px;
   padding: 0 8px;
-/* border-radius: 3px; */
-/* -webkit-user-select: none;
-  user-select: none; */
+ border-radius: 6px;
+ webkit-user-select: none;
+  user-select: none;
 }
 
 .login-submit {
   /* border: 1px solid #3079ed; */
-  border: 0px;
+  border: 1px solid #7494BF;
   color: #557c18;
+  height:60px;
+  color:#fff;  
   margin-top: 20px;
   text-shadow: 0 1px rgba(0,0,0,0.1); 
-  background-color: #b5f05b;
+ background: #96d2f7; /* Old browsers */
+background: -moz-linear-gradient(top,  #96d2f7 0%, #85aadb 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#96d2f7), color-stop(100%,#85aadb)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  #96d2f7 0%,#85aadb 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  #96d2f7 0%,#85aadb 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  #96d2f7 0%,#85aadb 100%); /* IE10+ */
+background: linear-gradient(to bottom,  #96d2f7 0%,#85aadb 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#96d2f7', endColorstr='#85aadb',GradientType=0 ); /* IE6-9 */
+
   /* background-image: -webkit-gradient(linear, 0 0, 0 100%,   from(#4d90fe), to(#4787ed)); */
 }
 
